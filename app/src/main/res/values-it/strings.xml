@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="notcont">Controllare la connessione a Internet</string>
+    <string name="infSalir">Al momento di lasciare perdere le impostazioni</string>
+
+    <string name="ajustes">impostazioni</string>
+    <string name="permisoBloqueado">Questa galleria il permesso è stato bloccato dall\'utente</string>
+    <string name="imgNone">Nessuna immagine</string>
+    <string name="playNoD">Play Store non disponibile</string>
+    <string name="inviteA">Invita amici</string>
+    <string name="inviteAmigos">Invita i tuoi amici ad utilizzare onCreate</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="action_Fondocolor">colore di sfondo</string>
+    <string name="action_Fondoimg1">Galleria di sfondo</string>
+    <string name="si">sì</string>
+    <string name="no">non</string>
+    <string name="compartir_por">Condividi via</string>
+    <string name="seleccionar_galeria">selezionare</string>
+    <string name="cancelar">annullare</string>
+    <string name="listo">pronto</string>
+    <string name="seleccioneopcion">Selezionare un\'opzione</string>
+    <string name="imgguardada">L\'immagine viene salvata nella galleria</string>
+    <string name="predetermiando">predeterminata</string>
+    <string name="nocreada">Impossibile creare un\'immagine</string>
+
+    <string name="title_activity_imagen_galeria">configurare immagine</string>
+    <string name="si_img">Selezionare un\'immagine</string>
+    <string name="calificarapp">tasso di App</string>
+    <string name="comimg">immagine Condividi</string>
+    <string name="saveimg">Salva immagine</string>
+    <string name="sharetext">Vi consiglio questa ottima applicazione per la creazione di immagini uniche con testo e foto!</string>
+    <string name="sticker">sticker</string>
+
+    <string name="fondo_difuminado">Sfondo sfocato</string>
+    <string name="app_name" translatable="false">PicaGraf</string>
+    <string name="filtros">Filtri</string>
+    <string name="emoji">Emoji</string>
+    <string name="camara">telecamera</string>
+    <string name="dibujar">Disegnare</string>
+    <string name="Salir">uscita</string>
+    <string name="No_espacio">Nessuno spazio disponibile</string>
+    <string name="brocha">Spazzola</string>
+    <string name="opacidad">Opacità</string>
+    <string name="color_de_brocha">Colore del pennello</string>
+    <string name="nuevo_texto">Nuovo testo</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="notcont">Verifique a conexão com a Internet</string>
+    <string name="infSalir">Ao sair perder as suas definições</string>
+    <string name="ajustes">configurações</string>
+    <string name="permisoBloqueado">Esta galeria permissão foi bloqueado pelo usuário</string>
+    <string name="imgNone">Sem imagem</string>
+    <string name="playNoD">Play Store não está disponível</string>
+    <string name="inviteA">Convide amigos</string>
+    <string name="inviteAmigos">Convide seus amigos para usar onCreate</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="action_Fondocolor">Cor de fundo</string>
+    <string name="action_Fondoimg1">fundo galeria</string>
+    <string name="si">sim</string>
+    <string name="no">não</string>
+    <string name="compartir_por">Compartilhar por</string>
+    <string name="seleccionar_galeria">selecionar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="listo">pronto</string>
+    <string name="seleccioneopcion">Selecione uma opção</string>
+    <string name="imgguardada">A imagem é guardada na galeria</string>
+    <string name="predetermiando">predeterminado</string>
+    <string name="nocreada">Não foi possível criar imagem</string>
+
+    <string name="title_activity_imagen_galeria">configurar imagem</string>
+    <string name="si_img">Selecione uma imagem</string>
+    <string name="calificarapp">taxa App</string>
+    <string name="comimg">image Compartilhar</string>
+    <string name="saveimg">Salvar imagem</string>
+    <string name="sharetext">Eu recomendo este excelente aplicação para criar imagens únicas com texto e fotos!</string>
+    <string name="sticker">adesivo</string>
+
+    <string name="fondo_difuminado">Fundo desfocado</string>
+    <string name="app_name" translatable="false">PicaGraf</string>
+    <string name="filtros">Filtros</string>
+    <string name="emoji">Emoji</string>
+    <string name="camara">Câmera</string>
+    <string name="dibujar">Desenhar</string>
+    <string name="Salir">saída</string>
+    <string name="No_espacio">Sem espaço disponível</string>
+    <string name="brocha">Escova</string>
+    <string name="opacidad">Opacidade</string>
+    <string name="color_de_brocha">Cor do pincel</string>
+    <string name="nuevo_texto">Novo texto</string>
+</resources>

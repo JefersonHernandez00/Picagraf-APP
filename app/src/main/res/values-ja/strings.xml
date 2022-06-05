@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="notcont">インターネット接続を確認してください</string>
+    <string name="infSalir">去るとき、あなたの設定が失わ</string>
+    <string name="ajustes">設定</string>
+    <string name="permisoBloqueado">この許可ギャラリーは、ユーザーによってブロックされました</string>
+    <string name="imgNone">画像なし</string>
+    <string name="playNoD">ストアが利用できない再生</string>
+    <string name="inviteA">友達を招待</string>
+    <string name="inviteAmigos">onCreate使用するように友達を招待</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="action_Fondocolor">背景色</string>
+    <string name="action_Fondoimg1">ギャラリーの背景</string>
+    <string name="si">はい</string>
+    <string name="no">ではありません</string>
+    <string name="compartir_por">でシェア</string>
+    <string name="seleccionar_galeria">選択</string>
+    <string name="cancelar">キャンセル</string>
+    <string name="listo">準備ができて</string>
+    <string name="seleccioneopcion">オプションを選択</string>
+    <string name="imgguardada">画像はギャラリーに保存されています</string>
+    <string name="predetermiando">所定</string>
+    <string name="nocreada">イメージを作成できませんでした</string>
+
+    <string name="title_activity_imagen_galeria">画像を設定します</string>
+    <string name="si_img">画像を選択</string>
+    <string name="calificarapp">レートのApp</string>
+    <string name="comimg">共有画像</string>
+    <string name="saveimg">画像を保存</string>
+    <string name="sharetext">私はあなたがテキストや写真でユニークな画像を作成するために、この優れたアプリケーションをお勧めします！</string>
+    <string name="sticker">ステッカー</string>
+
+    <string name="fondo_difuminado">背景がぼやけている</string>
+    <string name="app_name" translatable="false">PicaGraf</string>
+    <string name="filtros">フィルター</string>
+    <string name="emoji">絵文字</string>
+    <string name="camara">カメラ</string>
+    <string name="dibujar">描く</string>
+    <string name="Salir">エグジット</string>
+    <string name="brocha">みがきます</string>
+    <string name="No_espacio">利用可能なスペースがありません</string>
+    <string name="opacidad">不透明度</string>
+    <string name="color_de_brocha">ブラシの色</string>
+    <string name="nuevo_texto">新しいテキスト</string>
+</resources>

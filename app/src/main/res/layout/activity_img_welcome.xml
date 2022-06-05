@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImgWelcome"
+    android:background="@color/BLANCO"
+    android:theme="@style/AppTheme.NoActionBar">
+
+    <ImageView
+        android:layout_above="@+id/textWriter"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/img_uno"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.sarnava.textwriter.TextWriter
+        android:layout_margin="40dp"
+        android:id="@+id/textWriter"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

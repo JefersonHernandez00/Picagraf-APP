@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'kotlin-android'
+apply plugin: 'com.google.firebase.crashlytics'
+apply plugin: 'com.google.firebase.firebase-perf'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion '29.0.3'
+
+    defaultConfig {
+        applicationId 'com.app_hg.oncreatee'
+        minSdkVersion 17
+        targetSdkVersion 30
+        versionCode 19
+        versionName "3.1"
+        multiDexEnabled true
+
+        //androidx.renderscript.Allocation
+        renderscriptTargetApi 25
+        renderscriptSupportModeEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.13.1'
+
+    implementation "androidx.appcompat:appcompat:1.2.0"
+    implementation "com.google.android.material:material:1.2.1"
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'com.google.firebase:firebase-ads:19.6.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+    implementation 'com.google.android.play:core:1.9.0' //para calificar app
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.4.21"
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'com.android.support:multidex:1.0.3' // para usar varios plugin
+    implementation 'com.google.firebase:firebase-crashlytics:17.3.0'
+    implementation 'com.google.firebase:firebase-perf:19.0.10'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation "androidx.emoji:emoji-bundled:1.1.0" //cmpatibilidad android 4.4
+
+
+
+
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'// control de imagenes url
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.8.0' // opciones y tamaño y recorte de imagenes
+    implementation 'com.rarepebble:colorpicker:3.0.1' // selector de color
+    implementation 'com.github.sarnavakonar:TextWriter:v1.0' // texto animado
+    implementation 'ja.burhanrashid52:photoeditor:1.0.0' // opciones avanzadas de editor
+
+}
+

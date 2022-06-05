@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="notcont">检查互联网连接</string>
+    <string name="infSalir">离开时丢失自己的设置</string>
+    <string name="ajustes">设置</string>
+    <string name="permisoBloqueado">此权限画廊已被封锁由用户</string>
+    <string name="imgNone">没有图片</string>
+    <string name="playNoD">Play商店无法使用</string>
+    <string name="inviteA">邀请朋友</string>
+    <string name="inviteAmigos">邀请您的朋友使用的onCreate</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="action_Fondocolor">背景颜色</string>
+    <string name="action_Fondoimg1">画廊背景</string>
+    <string name="si">是的</string>
+    <string name="no">不</string>
+    <string name="compartir_por">通过分享</string>
+    <string name="seleccionar_galeria">选择</string>
+    <string name="cancelar">取消</string>
+    <string name="listo">准备</string>
+    <string name="seleccioneopcion">选择一个选项</string>
+    <string name="imgguardada">图像被保存在画廊</string>
+    <string name="predetermiando">预定</string>
+    <string name="nocreada">无法创建图像</string>
+
+    <string name="title_activity_imagen_galeria">配置图片</string>
+    <string name="si_img">选择图片</string>
+    <string name="calificarapp">为应用程序评分</string>
+    <string name="comimg">分享图片</string>
+    <string name="saveimg">保存图像</string>
+    <string name="sharetext">我建议你创建文本和照片独一无二的图像这个优秀的应用！</string>
+    <string name="sticker">贴纸</string>
+
+    <string name="fondo_difuminado">背景模糊</string>
+    <string name="app_name" translatable="false">PicaGraf</string>
+    <string name="filtros">筛选器</string>
+    <string name="emoji">表情符号</string>
+    <string name="camara">相机</string>
+    <string name="dibujar">画</string>
+    <string name="Salir">出口</string>
+    <string name="No_espacio">没有可用空间</string>
+    <string name="brocha">刷</string>
+    <string name="opacidad">不透明度</string>
+    <string name="color_de_brocha">刷子颜色</string>
+    <string name="nuevo_texto">新文字</string>
+</resources>

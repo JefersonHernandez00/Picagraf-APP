@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/itemcfondo"
+            android:icon="@drawable/ic_action_tiles_large"
+            android:title="@string/action_Fondocolor" />
+        <item
+            android:id="@+id/itemimgfondo"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/action_Fondoimg1" />
+
+        <item
+            android:id="@+id/itemcamara"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/camara" />
+
+        <item
+            android:id="@+id/itemfiltros"
+            android:icon="@drawable/filtros"
+            android:title="@string/filtros" />
+
+        <item
+            android:id="@+id/itemfdifuminado"
+            android:icon="@drawable/blur"
+            android:title="@string/fondo_difuminado" />
+
+        <item
+            android:id="@+id/itemdibujar"
+            android:icon="@drawable/ic_brush"
+            android:title="@string/dibujar" />
+
+        <item
+            android:id="@+id/itemntexto"
+            android:icon="@drawable/ic_action_font_faces"
+            android:title="@string/nuevo_texto" />
+
+        <item
+            android:id="@+id/itemsticker"
+            android:icon="@android:drawable/star_big_on"
+            android:title="@string/sticker" />
+
+        <item
+            android:id="@+id/itemEmoji"
+            android:icon="@drawable/ic_insert_emoticon"
+            android:title="@string/emoji" />
+
+    </group>
+
+    <item android:title="Extra">
+        <menu>
+
+            <item
+                android:id="@+id/inviteA"
+                android:icon="@drawable/amigos"
+                android:title="@string/inviteA" />
+            <item
+                android:id="@+id/opcioncompartir"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/comimg" />
+            <item
+                android:id="@+id/opcionguardar"
+                android:icon="@android:drawable/stat_sys_download_done"
+                android:title="@string/saveimg" />
+        </menu>
+    </item>
+
+</menu>

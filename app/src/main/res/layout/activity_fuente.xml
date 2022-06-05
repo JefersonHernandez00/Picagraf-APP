@@ -1,0 +1,710 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    tools:context=".Founts">
+
+    <ScrollView
+        android:layout_above="@+id/contBu"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fuentes_group"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/predetermiando"
+                    android:id="@+id/fuente0"
+                    android:gravity="center"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Charming Expanded"
+                    android:id="@+id/fuente3" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Yummy Apology"
+                    android:id="@+id/fuente4" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Serif"
+                    android:id="@+id/fuente5" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Acadian"
+                    android:id="@+id/fuente6" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Acmesa"
+                    android:id="@+id/fuente7" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Walt Disney"
+                    android:id="@+id/fuente8" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Actionj"
+                    android:id="@+id/fuente9" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Advert Italic"
+                    android:id="@+id/fuente10" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Albemarle Demo"
+                    android:id="@+id/fuente11" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Allegro"
+                    android:id="@+id/fuente12" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Almonte Snow"
+                    android:id="@+id/fuente13" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="AlphaMack"
+                    android:id="@+id/fuente14" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="AlphaRev"
+                    android:id="@+id/fuente15" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Alpine Regular"
+                    android:id="@+id/fuente16" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Alte Caps"
+                    android:id="@+id/fuente18" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Amethyst Zucchini"
+                    android:id="@+id/fuente19" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Arco"
+                    android:id="@+id/fuente20" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Angelina"
+                    android:id="@+id/fuente21" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="AngloSaxon Italic"
+                    android:id="@+id/fuente22" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="AnthroPosoph-Bold"
+                    android:id="@+id/fuente23" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Ariendesse"
+                    android:id="@+id/fuente24" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Ariston Wd"
+                    android:id="@+id/fuente25" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Artesania Display"
+                    android:id="@+id/fuente26" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Artifice"
+                    android:id="@+id/fuente27" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Asenine Super Thin"
+                    android:id="@+id/fuente28" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Ashby Black Italic"
+                    android:id="@+id/fuente29" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Asimov"
+                    android:id="@+id/fuente30" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Asphodel"
+                    android:id="@+id/fuente31" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Ataxia Outline"
+                    android:id="@+id/fuente32" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Augusta Shadow"
+                    android:id="@+id/fuente33" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Axaxax"
+                    android:id="@+id/fuente35" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Back to the Futurex"
+                    android:id="@+id/fuente36" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Backlash"
+                    android:id="@+id/fuente37" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Bajoran Regular"
+                    android:id="@+id/fuente40" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Baldur Regular"
+                    android:id="@+id/fuente41" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Ballade Contour"
+                    android:id="@+id/fuente42" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Baloney"
+                    android:id="@+id/fuente43" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Baltar"
+                    android:id="@+id/fuente44" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Baraquiel"
+                    android:id="@+id/fuente47" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Barbatrick"
+                    android:id="@+id/fuente48" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Basca"
+                    android:id="@+id/fuente49" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="BatFont"
+                    android:id="@+id/fuente50" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Baubau"
+                    android:id="@+id/fuente51" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Bauer"
+                    android:id="@+id/fuente52" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="MiasScribblings"
+                    android:id="@+id/fuente53" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Baveuse"
+                    android:id="@+id/fuente54" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Christmas Cookies"
+                    android:id="@+id/fuente55" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Ciudad Capital"
+                    android:id="@+id/fuente56" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Crewniverse"
+                    android:id="@+id/fuente57" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Screaming"
+                    android:id="@+id/fuente58" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Docallismeonstreet"
+                    android:id="@+id/fuente59" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Galacticstorm"
+                    android:id="@+id/fuente60" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Galacticstorm 3D"
+                    android:id="@+id/fuente61" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Galacticstorm Laser"
+                    android:id="@+id/fuente62" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Game Robot"
+                    android:id="@+id/fuente63" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Habbo Font"
+                    android:id="@+id/fuente64" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="HappyFox-Condensed"
+                    android:id="@+id/fuente65" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Jumbo Rings"
+                    android:id="@+id/fuente66" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="King Will Be King"
+                    android:id="@+id/fuente67" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Kingdom of Heart"
+                    android:id="@+id/fuente68" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Minecraft"
+                    android:id="@+id/fuente69" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Missionpossible"
+                    android:id="@+id/fuente70" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Mostwasted"
+                    android:id="@+id/fuente71" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Power"
+                    android:id="@+id/fuente72" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="SecondAvenue"
+                    android:id="@+id/fuente73" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="One percent font"
+                    android:id="@+id/fuente74" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Paris in Love"
+                    android:id="@+id/fuente75" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Parrot Leaf"
+                    android:id="@+id/fuente76" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Peinture Fraiche"
+                    android:id="@+id/fuente77" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Pixeltype"
+                    android:id="@+id/fuente78" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Raspoutine Classic"
+                    android:id="@+id/fuente79" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Red Power"
+                    android:id="@+id/fuente80" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="SantasSleighFull Bold"
+                    android:id="@+id/fuente81" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="SantasSleighFull Deluxe"
+                    android:id="@+id/fuente82" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Schreibii"
+                    android:id="@+id/fuente83" />
+
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Take on me"
+                    android:id="@+id/fuente91" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Thumbs UP"
+                    android:id="@+id/fuente92" />
+                <RadioButton
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    android:text="Tribal"
+                    android:id="@+id/fuente93" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/contBu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar"
+            android:id="@+id/cancelar"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/listo"
+            android:id="@+id/send_button"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:layout_alignBaseline="@+id/cancelar"
+            android:layout_alignBottom="@+id/cancelar"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

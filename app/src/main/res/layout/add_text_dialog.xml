@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/layoutlinerM"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/done_tv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_action_tick"
+            android:padding="10dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/estilofuente"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_action_font_faces"
+            android:padding="10dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/colorfuente"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/colortext"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/add_text_edit_text"
+        style="@style/EditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutlinerM"
+        android:background="@null"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:textSize="40sp" />
+
+</RelativeLayout>

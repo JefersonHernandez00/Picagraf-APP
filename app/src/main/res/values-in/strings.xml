@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="notcont">Periksa koneksi Internet</string>
+    <string name="infSalir">Ketika meninggalkan kehilangan pengaturan Anda</string>
+    <string name="ajustes">pengaturan</string>
+    <string name="permisoBloqueado">Galeri izin ini telah diblokir oleh pengguna</string>
+    <string name="imgNone">Tidak ada gambar</string>
+    <string name="playNoD">Play Store tidak tersedia</string>
+    <string name="inviteA">Undang teman</string>
+    <string name="inviteAmigos">Undang teman Anda untuk menggunakan onCreate</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="action_Fondocolor">warna latar belakang</string>
+    <string name="action_Fondoimg1">latar belakang galeri</string>
+    <string name="si">ya</string>
+    <string name="no">tidak</string>
+    <string name="compartir_por">Berbagi</string>
+    <string name="seleccionar_galeria">memilih</string>
+    <string name="cancelar">membatalkan</string>
+    <string name="listo">siap</string>
+    <string name="seleccioneopcion">Pilih opsi</string>
+    <string name="imgguardada">Gambar akan disimpan dalam galeri</string>
+    <string name="predetermiando">yang telah ditentukan</string>
+    <string name="nocreada">Tidak dapat membuat citra</string>
+
+    <string name="title_activity_imagen_galeria">mengkonfigurasi gambar</string>
+    <string name="si_img">Pilih gambar</string>
+    <string name="calificarapp">tingkat App</string>
+    <string name="comimg">Berbagi gambar</string>
+    <string name="saveimg">Simpan gambar</string>
+    <string name="sharetext">Saya merekomendasikan aplikasi ini sangat baik bagi Anda untuk membuat gambar yang unik dengan teks dan foto!</string>
+    <string name="sticker">stiker</string>
+
+    <string name="fondo_difuminado">Latar belakang kabur</string>
+    <string name="app_name" translatable="false">PicaGraf</string>
+    <string name="filtros">Filter</string>
+    <string name="emoji">Emoji</string>
+    <string name="camara">Kamera</string>
+    <string name="dibujar">Menggambar</string>
+    <string name="Salir">keluar</string>
+    <string name="No_espacio">Tidak ada ruang yang tersedia</string>
+    <string name="brocha">Sikat</string>
+    <string name="opacidad">Kegelapan</string>
+    <string name="color_de_brocha">Warna kuas</string>
+    <string name="nuevo_texto">Teks baru</string>
+</resources>

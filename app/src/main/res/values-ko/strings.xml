@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string name="notcont">인터넷 연결 확인</string>
+    <string name="infSalir">떠나면 설정을 잃게됩니다</string>
+    <string name="Salir">나가</string>
+    <string name="ajustes">환경</string>
+    <string name="permisoBloqueado">이 갤러리 권한은 사용자에 의해 차단되었습니다.</string>
+    <string name="imgNone">이미지가 없습니다</string>
+    <string name="playNoD">Play 스토어를 사용할 수 없습니다.</string>
+    <string name="inviteA">친구를 초대</string>
+    <string name="inviteAmigos">onCreate를 사용하도록 친구 초대</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="action_Fondocolor">배경색</string>
+    <string name="action_Fondoimg1">갤러리 배경</string>
+    <string name="si">예</string>
+    <string name="no">아니</string>
+    <string name="compartir_por">공유</string>
+    <string name="seleccionar_galeria">고르다</string>
+    <string name="cancelar">취소</string>
+    <string name="listo">확인</string>
+    <string name="seleccioneopcion">옵션을 선택하세요</string>
+    <string name="imgguardada">갤러리에 저장된 이미지</string>
+    <string name="predetermiando">미리 결정</string>
+    <string name="nocreada">이미지를 생성 할 수 없습니다.</string>
+
+
+
+    <string name="title_activity_imagen_galeria">이미지 설정</string>
+    <string name="si_img">이미지 선택</string>
+    <string name="calificarapp">앱 비율</string>
+    <string name="comimg">이미지 공유</string>
+    <string name="saveimg">사진을 저장하다</string>
+    <string name="sharetext">텍스트와 사진으로 독특한 이미지를 만들려면이 훌륭한 앱을 추천합니다!</string>
+    <string name="sticker">상표</string>
+
+    <string name="fondo_difuminado">흐린 배경</string>
+    <string name="No_espacio">사용 가능한 공간이 없습니다.</string>
+    <string name="app_name" translatable="false">PicaGraf</string>
+    <string name="filtros">필터</string>
+    <string name="emoji">이모티콘</string>
+    <string name="camara">카메라</string>
+    <string name="dibujar">그리기</string>
+    <string name="brocha">브러시</string>
+    <string name="opacidad">불투명</string>
+    <string name="color_de_brocha">브러시 색상</string>
+    <string name="nuevo_texto">새 텍스트</string>
+</resources>

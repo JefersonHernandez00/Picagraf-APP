@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+
+    <string name="notcont">Überprüfen Sie die Internetverbindung</string>
+    <string name="infSalir">Wenn Sie Ihre Einstellungen zu verlassen verlieren</string>
+    <string name="ajustes">Einstellungen</string>
+    <string name="permisoBloqueado">Diese Erlaubnis Galerie wird vom Anwender gesperrt</string>
+    <string name="imgNone">kein Bild</string>
+    <string name="playNoD">Play Store nicht verfügbar</string>
+    <string name="inviteA">Freunde einladen</string>
+    <string name="inviteAmigos">Laden Sie Ihre Freunde zu verwenden onCreate</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="action_Fondocolor">Hintergrundfarbe</string>
+    <string name="action_Fondoimg1">Galerie Hintergrund</string>
+    <string name="si">ja</string>
+    <string name="no">nicht</string>
+    <string name="compartir_por">Aktie</string>
+    <string name="seleccionar_galeria">wählen</string>
+    <string name="cancelar">stornieren</string>
+    <string name="listo">bereit</string>
+    <string name="seleccioneopcion">Wählen Sie eine Option</string>
+    <string name="imgguardada">Das Bild wird in der Galerie gespeichert</string>
+    <string name="predetermiando">vorbestimmte</string>
+    <string name="nocreada">Bild kann nicht erstellen</string>
+
+    <string name="title_activity_imagen_galeria">konfigurieren Bild</string>
+    <string name="si_img">Wählen Sie ein Bild</string>
+    <string name="calificarapp">bewerten App</string>
+    <string name="comimg">Teile Bild</string>
+    <string name="saveimg">Bild speichern</string>
+    <string name="sharetext">Ich empfehle diese hervorragende Anwendung für Sie einzigartige Bilder mit Text und Fotos erstellen!</string>
+    <string name="sticker">Aufkleber</string>
+
+    <string name="fondo_difuminado">Unscharfer Hintergrund</string>
+    <string name="app_name" translatable="false">PicaGraf</string>
+    <string name="filtros">Filter</string>
+    <string name="emoji">Emoji</string>
+    <string name="camara">Kamera</string>
+    <string name="dibujar">Zeichnen</string>
+    <string name="Salir">Ausfahrt</string>
+    <string name="No_espacio">Kein Platz verfügbar</string>
+    <string name="brocha">Bürste</string>
+    <string name="opacidad">Opazität</string>
+    <string name="color_de_brocha">Pinselfarbe</string>
+    <string name="nuevo_texto">Neuer Text</string>
+</resources>

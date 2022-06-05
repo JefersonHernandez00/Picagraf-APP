@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string name="notcont">تحقق من اتصال الإنترنت</string>
+    <string name="infSalir">عندما ترك تفقد إعداداتك</string>
+    <string name="ajustes">ajustes</string>
+    <string name="permisoBloqueado">تم إخفاء هذا المعرض إذن من قبل المستخدم</string>
+    <string name="imgNone">لا توجد صورة</string>
+    <string name="playNoD">لعب مخزن غير متوفرة</string>
+    <string name="inviteA">دعوة الأصدقاء</string>
+    <string name="inviteAmigos">دعوة أصدقائك لاستخدام OnCreate الخاص</string>
+
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <string name="action_Fondocolor">لون الخلفية</string>
+    <string name="action_Fondoimg1">معرض الخلفية</string>
+    <string name="si">نعم</string>
+    <string name="no">ليس</string>
+    <string name="compartir_por">سهم</string>
+    <string name="seleccionar_galeria">حدد</string>
+    <string name="cancelar">إلغاء</string>
+    <string name="listo">استعداد</string>
+    <string name="seleccioneopcion">حدد خيارا</string>
+    <string name="imgguardada">يتم حفظ الصورة في المعرض</string>
+    <string name="predetermiando">سلفا</string>
+    <string name="nocreada">لا يمكن خلق صورة</string>
+
+
+    <string name="title_activity_imagen_galeria">تكوين صورة</string>
+    <string name="si_img">تحديد صورة</string>
+    <string name="calificarapp">معدل التطبيقات</string>
+    <string name="comimg">حصة صورة</string>
+    <string name="saveimg">حفظ الصورة</string>
+    <string name="sharetext">أوصي هذا التطبيق ممتاز بالنسبة لك لخلق صور فريدة من نوعها مع النص والصور!</string>
+    <string name="sticker">لاصقة</string>
+
+    <string name="fondo_difuminado">خلفية غير واضحة</string>
+    <string name="app_name" translatable="false">PicaGraf</string>
+    <string name="filtros">المرشحات</string>
+    <string name="emoji">تعبيري</string>
+    <string name="camara">الة تصوير</string>
+    <string name="dibujar">ليرسم</string>
+    <string name="Salir">خروج</string>
+    <string name="No_espacio">لا توجد مساحة متاحة</string>
+    <string name="brocha">فرشاة</string>
+    <string name="opacidad">العتامة</string>
+    <string name="color_de_brocha">لون الفرشاة</string>
+    <string name="nuevo_texto">نص جديد</string>
+</resources>
